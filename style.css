@@ -6,15 +6,15 @@ head {
 body {
     background-color: aqua;
     background-position: center;
-    border-bottom-width: inherit;
-    border-bottom-color: darkblue;
+    border-bottom-width: 100px;
+    border-bottom-color: 10px solid darkblue;
     border-bottom: 15px;
+    color: crimson
 }
 foot {
-    height: 500px;
+    position: fixed;
+    height: 50px;
     width: 100%;
-    font size: 100%;
     background: red;
-    color: white;
-    align-content: center;
+    color: rebeccapurple;
 }
