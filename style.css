@@ -1,1 +1,5 @@
-
+head {
+    background: blue;
+    color: green;
+    background-size: auto;
+}
