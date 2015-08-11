@@ -4,5 +4,9 @@ head {
     background-size: auto;
 }
 body {
-    color: chartreuse;
+    background-color: aqua;
+    background-position: top;
+    border-bottom-width: inherit;
+    border-bottom-color: darkblue;
+    border-bottom: 15px;
 }
