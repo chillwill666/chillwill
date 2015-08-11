@@ -5,7 +5,7 @@ head {
 }
 body {
     background-color: aqua;
-    background-position: top;
+    background-position: center;
     border-bottom-width: inherit;
     border-bottom-color: darkblue;
     border-bottom: 15px;
@@ -15,6 +15,6 @@ foot {
     width: 100%;
     font size: 100%;
     background: red;
-    background-origin: border-box;
-    
+    color: white;
+    align-content: center;
 }
