@@ -10,3 +10,10 @@ body {
     border-bottom-color: darkblue;
     border-bottom: 15px;
 }
+foot {
+    height: 50%;
+    width: 100%;
+    font size: 100%;
+    background: red;
+    font-stretch: expanded;
+}
