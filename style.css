@@ -11,9 +11,10 @@ body {
     border-bottom: 15px;
 }
 foot {
-    height: 50%;
+    height: 500px;
     width: 100%;
     font size: 100%;
     background: red;
-    font-stretch: expanded;
+    background-origin: border-box;
+    
 }
