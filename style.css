@@ -4,6 +4,8 @@ head {
     background-size: auto;
 }
 body {
+    font-size: 15px;
+    display: flex;
     background-image: url("thestump.jpg");
     background-color: royalblue;
     background-repeat: no-repeat;
