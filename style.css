@@ -4,22 +4,24 @@ head {
     background-size: auto;
 }
 body {
+    font-size: 1em;
     background-image: url("thestump.jpg");
     background-color: royalblue;
     background-repeat: no-repeat;
     background-size: inherit;
-    background-position:top;
+    background-position: top;
     border-bottom-color: 10px solid darkblue;
     color: crimson
 }
 foot {
     position: absolute;
-    height:auto;
-    width:inherit;
+    height: auto;
+    width: inherit;
     background: red;
     color: rebeccapurple;
 }
 h2 {
-    border-style: solid #ff0000;
-    width: 50px;
+    border-style: solid;
+    border-width: medium;
+    border-color: rebeccapurple;
 }
