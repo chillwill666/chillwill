@@ -14,7 +14,7 @@ body {
 }
 foot {
     position: absolute;
-    height: 50px;
+    height:auto;
     width:inherit;
     background: red;
     color: rebeccapurple;
