@@ -4,7 +4,9 @@ head {
     background-size: auto;
 }
 body {
-    background-color: aqua;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:inherit;
     background-position: center;
     border-bottom-width: 100px;
     border-bottom-color: 10px solid darkblue;
@@ -12,9 +14,10 @@ body {
     color: crimson
 }
 foot {
-    position: fixed;
+    position: absolute;
     height: 50px;
     width: 100%;
     background: red;
     color: rebeccapurple;
-}
+    bottom: 0px;    
+}:
