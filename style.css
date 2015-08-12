@@ -4,7 +4,7 @@ head {
     background-size: auto;
 }
 body {
-    background-image: url("background.jpg");
+    background-image: url("background1.jpg");
     background-repeat: no-repeat;
     background-size:inherit;
     background-position: center;
@@ -20,4 +20,4 @@ foot {
     background: red;
     color: rebeccapurple;
     bottom: 0px;    
-}:
+}
