@@ -9,9 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: inherit;
     background-position: center;
-    border-bottom: 00px;
     border-bottom-color: 10px solid darkblue;
-    border-bottom: 15px;
     color: crimson
 }
 foot {
@@ -23,6 +21,6 @@ foot {
     margin: 0px;
 }
 h2 {
-    border-style: solid;
-    border-bottom: solid  #ff0000;
+    border-style: solid #ff0000;
+    width: 50px;
 }
