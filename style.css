@@ -5,20 +5,19 @@ head {
 }
 body {
     background-image: url("thestump.jpg");
-    background-color: aqua;
+    background-color: royalblue;
     background-repeat: no-repeat;
     background-size: inherit;
-    background-position: center;
+    background-position:top;
     border-bottom-color: 10px solid darkblue;
     color: crimson
 }
 foot {
     position: absolute;
     height: 50px;
-    width: 100%;
+    width:inherit;
     background: red;
     color: rebeccapurple;
-    margin: 0px;
 }
 h2 {
     border-style: solid #ff0000;
