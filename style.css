@@ -5,6 +5,8 @@ head {
 }
 body {
     font-size: 1em;
+    font-family: sans-serif;
+    font-style: normal;
     background-image: url("thestump.jpg");
     background-color: royalblue;
     background-repeat: no-repeat;
