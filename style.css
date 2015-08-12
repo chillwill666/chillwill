@@ -21,9 +21,14 @@ footer {
     background: red;
     color: rebeccapurple;
 }
-footer .block  {
+footer .block {
     font-size: 1em;
     border-style: solid;
     border-width: medium;
     border-color: rebeccapurple;
+}
+. div1 {
+    background: url("background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
