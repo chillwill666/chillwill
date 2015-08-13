@@ -2,6 +2,7 @@ head {
     background: blue;
     color: green;
     background-size: auto;
+    margin-top: 0px;
 }
 body {
     font-size: large;
@@ -12,7 +13,8 @@ body {
     background-repeat: no-repeat;
     background-size: inherit;
     background-position: right;
-    color: crimson
+    border-bottom-style: dotted red;
+    color: crimson;
 }
 footer {
     position: absolute;
@@ -27,8 +29,9 @@ footer .block {
     border-width: medium;
     border-color: rebeccapurple;
 }
-. div1 {
-    background: url("background.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+h1 {
+    background: green;
+    position: absolute;
+    text-align: center;
+    color: midnightblue;
 }
