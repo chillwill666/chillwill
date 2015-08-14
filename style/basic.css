@@ -1,0 +1,47 @@
+    /* setup flexbox, make everything stack, make sure the body's height is at least at all times 100% of the view height */
+        body {display:flex;flex-direction:column;margin:0;border:0;min-height:100vh;}    
+    /* this applies to header, main, and footer > means only the first level */
+        body > * {width:100%;display:flex;flex-direction:column;}
+    /* just to be quick */
+        header, footer {height:200px;}
+    /* if there isn't enough stuff in the main to make it tall enough to send the footer to the bottom, stretch/flex it to be big enough */
+        main {flex:1;}
+    
+    h1 {width:100%;text-align:center;}
+    h1, h2, h3, h4, h5, h6 {font-family:'coolvetica', sans-serif;}
+
+    /* height is 100% so it grows to be as high as the parent element, since it has no content inside and just the background image, we need to display:inline-block */
+        #topLogo {background:url('../style/images/words.png') no-repeat 50% -280px;width:100%;height:100%;display:inline-block;}    
+        
+    /* Center it, padding to keep the quote icons a bit away */
+        #quote {align-self:center;color:black;}
+        #quote span {vertical-align:super;padding:0 10px;text-decoration:underline;font-family:Georgia, serif;}
+    /* i.fa specifies only font awesome icons */
+        #quote i.fa {color:dimgray;}
+    /* override link-colors for the quotes by getting parent element's color */
+        #quote a {color:inherit;}
+
+    /* main homepage list styles */
+        #list {margin-top:10%;list-style:none;font-size:2em;text-align:left;}
+        #list li {margin-bottom:25px;}
+        #list a {font-family:'coolvetica', sans-serif;text-decoration:none;color:dimgray;cursor:pointer;/* text-transform:lowercase; */}
+
+    /* This makes it so the entire list goes dark when hovered, except for the selected li */
+        #list:hover > li {opacity:0.4;transition:opacity 0.3s ease;}
+        #list:hover > li:hover {opacity:1.0;}
+        
+    /* force hack that thing over there with position absolute */
+         #copyr {position: absolute;right:15px;bottom:0;font-family:tahoma;} 
+    /* to put the squrrel somewhere, it grows to be as big as the parent element */
+        #fuckinNut {background:url('../style/images/actLikeNut.png') left/contain no-repeat;height:100%;width:auto;}    
+    
+    /* code it, don't show it */
+        .hide {display:none;}
+
+    /* This makes our 'deadface' text behave like a font-awesome icon kinda and overrides the default styles of i */
+        a:hover i.deadFace:before {content:'0_0'}
+        i.deadFace:before {content:'X_X';font-style:normal !important;letter-spacing:-3px;font-family:monospace;}
+    
+    /* a simple animation that you can apply to anything */
+        .fadein {animation:fadein 2s;}
+        @keyframes fadein { from { opacity: 0; } to   { opacity: 1; } }

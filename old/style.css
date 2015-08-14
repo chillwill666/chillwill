@@ -1,0 +1,41 @@
+header {
+    background: blue;
+    color: green;
+    background-size: auto;
+    margin-top: 0px;
+}
+body {
+    font-size: large;
+    font-family: monospace;
+    font-style: normal;
+    background-image: url("thestump.jpg");
+    background-color: royalblue;
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: right;
+    border-bottom-style: dotted red;
+    color: crimson;
+    display:flex;
+    min-height:100vh;
+    flex-direction:column;
+}
+footer {
+    position: absolute;
+    height: auto;
+    width: inherit;
+    background: red;
+    color: rebeccapurple;
+}
+footer .block {
+    font-size: 2em;
+    border-style: solid;
+    border-width: medium;
+    border-color: rebeccapurple;
+}
+h1 {
+    background: green;
+    position: absolute;
+    text-align: center;
+    color: midnightblue;
+}
+main {flex: 1;}
