@@ -1,0 +1,6 @@
+/* This makes it so one image is ontop of another until the mouse hovers over it */
+
+.bg_tree:before, .bg_tree:after {content:'';width:100%;height:100vh;position:absolute;bottom:0;right:5%;pointer-events:none;background-position:bottom;background-size:70%;background-repeat:no-repeat;}
+.bg_tree:before {background-image:url('bwtree.jpg');z-index:-2;opacity:0.4}
+.bg_tree:after  {background-image:url('tree.jpg');z-index:-1;transition:opacity 1s ease-in-out;opacity:0;}
+.bg_tree:hover:after {opacity:0.5;}
