@@ -22,13 +22,13 @@
         #quote a {color:inherit;}
 
     /* main homepage list styles */
-        #list {margin-top:10%;list-style:none;font-size:2em;text-align:left;}
+        #list {margin-top:10%;width: 36%;list-style:none;font-size:2em;text-align:left;}
         #list li {margin-bottom:25px;}
         #list a {font-family:'coolvetica', sans-serif;text-decoration:none;color:dimgray;cursor:pointer;/* text-transform:lowercase; */}
 
     /* This makes it so the entire list goes dark when hovered, except for the selected li */
         #list:hover > li {opacity:0.4;transition:opacity 0.3s ease;}
-        #list:hover > li:hover {opacity:1.0;}
+        #list:hover > li:hover {opacity:1.0;} 
         
     /* force hack that thing over there with position absolute */
          #copyr {position: absolute;right:15px;bottom:0;font-family:tahoma;} 
